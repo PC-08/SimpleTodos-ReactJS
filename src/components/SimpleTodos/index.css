@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #ffc2a0;
+  font-family: 'roboto';
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.head {
+  color: #ff8542;
+}
+
+@media (max-width: 576px) {
+  .bg {
+    padding: 10px;
+  }
+  .card {
+    padding: 10px;
+  }
+}

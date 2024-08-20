@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.todo {
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.btn {
+  background-color: transparent;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 30px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+@media (max-width: 567px) {
+  .para {
+    font-size: 16px;
+  }
+  .btn {
+    margin-left: 10px;
+  }
+
+  .todo {
+    text-align: left;
+    padding: 0;
+  }
+}
